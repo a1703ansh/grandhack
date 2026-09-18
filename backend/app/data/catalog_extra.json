@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-09-18T06:01:03.266430+00:00",
+  "courses": [
+    {
+      "id": "etl_mit_6_036_introduction_to_machine_learning_ocw",
+      "title": "MIT 6.036 Introduction to Machine Learning (OCW)",
+      "source": "MIT OCW",
+      "difficulty": "Intermediate",
+      "durationHours": 60.0,
+      "rating": 4.7,
+      "url": "https://ocw.mit.edu/courses/6-036-introduction-to-machine-learning-fall-2020/",
+      "tags": [
+        "Machine Learning",
+        "MIT OCW"
+      ],
+      "keywords": "machine learning mit ocw regression classification supervised 6.036"
+    },
+    {
+      "id": "etl_essence_of_linear_algebra_3blue1brown",
+      "title": "Essence of Linear Algebra (3Blue1Brown)",
+      "source": "YouTube",
+      "difficulty": "Beginner",
+      "durationHours": 5.0,
+      "rating": 4.9,
+      "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+      "tags": [
+        "Linear Algebra",
+        "Visual"
+      ],
+      "keywords": "linear algebra 3blue1brown vectors matrices intuition"
+    },
+    {
+      "id": "etl_postgresql_tutorial_freecodecamp",
+      "title": "PostgreSQL Tutorial (freeCodeCamp)",
+      "source": "YouTube",
+      "difficulty": "Beginner",
+      "durationHours": 4.0,
+      "rating": 4.6,
+      "url": "https://www.youtube.com/watch?v=qw--VYLpxD4",
+      "tags": [
+        "SQL",
+        "Postgres"
+      ],
+      "keywords": "sql postgres database freecodecamp queries"
+    }
+  ],
+  "skipped_count": 0,
+  "issues": []
+}

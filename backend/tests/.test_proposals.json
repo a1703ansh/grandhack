@@ -1,0 +1,32 @@
+[
+  {
+    "topic_id": "graph_neural_networks",
+    "name": "Graph Neural Networks",
+    "description": "Neural nets over relational/graph data.",
+    "difficulty": "Advanced",
+    "hours": 25,
+    "why": "GNNs power modern recommendation and molecule-models.",
+    "aliases": [
+      "graph neural networks",
+      "gnn",
+      "gnns"
+    ],
+    "prereq_topic_ids": [
+      "machine_learning_fundamentals"
+    ],
+    "courses": [
+      {
+        "title": "Intro to Graph Neural Networks",
+        "source": "YouTube",
+        "difficulty": "Advanced",
+        "durationHours": 6,
+        "rating": 4.5,
+        "url": "https://www.youtube.com/watch?v=zCEYiCxrL_0",
+        "tags": [
+          "GNN"
+        ],
+        "keywords": "graph neural networks gnn"
+      }
+    ]
+  }
+]
