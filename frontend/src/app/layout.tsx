@@ -1,0 +1,27 @@
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
+
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+});
+
+export const metadata: Metadata = {
+  title: "Credential-Free Learning Path Finder",
+  description: "Your free, personalized path to any skill using top free courses.",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en" className={`${inter.variable} h-full antialiased dark`}>
+      <body className="min-h-full flex flex-col bg-background text-foreground selection:bg-electric/30">
+        {children}
+      </body>
+    </html>
+  );
+}

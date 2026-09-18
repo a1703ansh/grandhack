@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  
+  --color-background: #050505;
+  --color-foreground: #F3F3E0;
+  
+  --color-navy: #121212;
+  --color-navy-light: #1A1A1A;
+  --color-navy-lighter: #2A2A2A;
+  
+  --color-electric: #D4AF37; /* Re-purposing electric class to primary-gold */
+  --color-electric-hover: #EBC855;
+  --color-electric-light: rgba(212, 175, 55, 0.15);
+  
+  --color-primary-gold: #D4AF37;
+  --color-light-gold: #F9E596;
+  --color-dark-gold: #997A00;
+  
+  --color-violet: #997A00; /* Re-purposing violet to dark-gold for backward compat */
+  --color-violet-light: #B89400;
+  
+  --color-mint: #F9E596; /* Re-purposing mint to light-gold */
+  --color-mint-light: #FBEFBC;
+  
+  --color-card: rgba(18, 18, 18, 0.7);
+  --color-card-border: rgba(212, 175, 55, 0.2);
+  --color-border: rgba(212, 175, 55, 0.1);
+  
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
+
+.glass-panel {
+  background: var(--color-card);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--color-card-border);
+}
+
